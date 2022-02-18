@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.js">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<style>
+    /* Tag selector */
+    a {
+        text-decoration: none;
+    }
+
+
+    .site-text {
+        color: orangered;
+    }
+
+    #tnc {
+        background-color: burlywood;
+        color: blue;
+    }
+
+    a .btn {
+        background-color: tomato;
+    }
+
+    /* .btn a{
+        background-color: black;
+        color: white;
+    } */
+    /* div .btn {
+        background-color: magenta;
+        color: rgb(88, 88, 88);
+    } */
+
+    /* div,
+    .btn {
+        background-color: darkcyan;
+    } */
+
+    nav div p {
+        background-color: brown;
+    }
+
+    div span p {
+        background-color: yellow;
+    }
+
+    div>p {
+        /* This will apply to only the direct paragraph child of div */
+        color: magenta;
+    }
+    li:nth-child(4){
+        background-color: darkgreen;
+    }
+    li:nth-child(odd){
+        background-color: aquamarine;
+    }
+    li:nth-child(4n-3){
+        background-color:darksalmon ;
+    }
+
+    #item7 + li{
+        background-color: chartreuse;
+    }
+
+</style>
+
+<body>
+    <h1>Learn CSS in 10 hours!</h1>
+    <div>
+    <ul>
+        <li id="item1">Home</li>
+        <li id="item2">Our Students</li>
+        <li id="item3">Faculty Family</li>
+        <li id="item4">Admin that Supports</li>
+        <li id="item5">Career at Royal</li>
+        <li id="item6">Work Experience</li>
+        <li id="item7">Other Services</li>
+        <li id="item8">Placement Partners</li>
+        <li id="item9">Login</li>
+        <li id="item10">Sign Up</li>
+    </ul>
+</div>
+    <div>
+        <a href="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore ab, quam repellendus repellat accusamus
+                est
+                reprehenderit temporibus quasi! Ipsa, exercitationem.</p>
+        </a>
+    </div>
+    <h3>Types of CSS</h3>
+    <div>
+        <a href="">
+            <button class="btn">Try This!</button>
+        </a>
+    </div>
+    <div>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+    </div>
+    <p class="site-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, maxime ducimus? Ipsa laudantium
+        necessitatibus voluptatibus illum, quasi dolor! Iure soluta veniam sunt harum velit. Ipsam a praesentium quaerat
+        laudantium perferendis.</p>
+    <nav>
+        <div>
+            <span>
+                <div>
+                    <p>Home</p>
+                </div>
+            </span>
+        </div>
+    </nav>
+
+    <h3>Selectors in CSS</h3>
+    <p class="site-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, accusamus repudiandae ab
+        temporibus ipsum id consectetur itaque optio. Rem quisquam quis laborum voluptatibus aut doloribus sint
+        recusandae labore ab, optio quae, quaerat animi quas suscipit in alias architecto perspiciatis hic tempora
+        voluptatum. Dicta, nihil! In deleniti facere culpa ipsam nisi.</p>
+    <a href="" class="btn">Login</a>
+    <a href="">Sign Up</a>
+    <h3>Important Terms & Conditions - Read Carefully</h3>
+    <p id="tnc" class="site-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio impedit minima
+        mollitia harum magnam cupiditate odit possimus laborum fugit illum.</p>
+    <a href="">
+        <button class="btn">Try for Free</button>
+    </a>
+    <div>
+        <button class="btn">
+            <a href="">
+                Pay Now
+            </a>
+        </button>
+    </div>
+    
+        <!-- !-- console.log("hello");
+        //alert("me"); --> -->
+        
+</body>
+ 
+
+
+</html>
