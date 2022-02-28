@@ -2,6 +2,7 @@ from re import T
 
 
 class Bike:
+    
     def __init__(self,stock):
         self.stock=stock 
     def displayBike(self):
@@ -15,9 +16,8 @@ class Bike:
             self.stock=self.stock-q
             print("total price",q*100)
             print("total bikes Avalible",self.stock) 
-                   
+obj=Bike(100)               
 while True:
-    obj=Bike(100)
     uc=int(input('''
  1 Display stocks
  2 rent Bike
@@ -29,6 +29,9 @@ while True:
         obj.displayBike()
     elif uc==2:
         n=int(input("Enter the qty:---"))
-        obj.rentforBike(n)    
-    else: 
+        obj.rentforBike(n)
+    elif uc==3:
         break    
+    else: 
+        print("invalid input")
+        # obj.displayBike()

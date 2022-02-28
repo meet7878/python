@@ -15,7 +15,7 @@ class C(B):
            print("third")           
 
 obj= C()
-obj.display()
-obj.show()  
-obj.demo()        
+obj.display() 
+obj.demo()
+obj.show()       
     
