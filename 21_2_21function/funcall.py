@@ -30,22 +30,19 @@
 #     print(kid[2])
 # fun2("linumx","windows","extra") 
 
-# #next2
-# def fun3(normal, *var,**detail):
-#                                                                                                                           
-#     for key,value in detail.items():  #syntax
-#           print(key,value)
-                  
-          
-          
-    
-#     print(normal)
-#     print(var)
-    
-# normal="hello"   
-# var=["meet","kishan","ved","dev"]
-# detail={"meet":"name","kishan":"name2"}
-# fun3(normal,'qweqe', 'qwewqe', test=123, test2=123)  #first normal after the *var declare this is syntax
+#next2
+
+def fun3(normal,*demo,**detail):
+     
+    print(normal) 
+    print(demo)
+    print(detail)   
+                                                                                                                                 
+        
+normal="hello"   
+var=["meet","kishan","ved","dev" ]
+detail={"meet":"name","kishan":"name2"}
+fun3(normal,*var,**detail,test =123,demo=123,prac=234)  #first normal after the *var declare this is syntax
 
 
 
@@ -54,3 +51,4 @@
 # def fun3(**kid):
 #     print(kid["lname"])
 # fun3(firstname="meet",lname="hello")    
+
